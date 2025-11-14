@@ -1,0 +1,85 @@
+/*
+ * FarmaConnect Control Tokens
+ * Tokens específicos para componentes de formulario (inputs, selects, textareas, buttons)
+ */
+:root {
+  /* Control heights (altura estándar de inputs) */
+  --control-h-sm: 40px;
+  --control-h-md: 44px;
+  --control-h-lg: 48px;
+
+  /* Control spacing (padding interno) */
+  --control-px: 0.875rem; /* 14px */
+  --control-py: 0.625rem; /* 10px */
+  --control-radius: 8px;
+
+  /* Control backgrounds (fondos de inputs) */
+  --control-bg: #F0F5F7; /* Fondo base */
+  --control-bg-hover: #D9E6EB; /* Hover */
+  --control-bg-focus: #C2D7E1; /* Focus */
+  --control-bg-disabled: #E8EDF0; /* Disabled */
+
+  /* Control borders (bordes de inputs) */
+  --control-border: #AFC3CF; /* Border base */
+  --control-border-hover: #91A9B9; /* Hover */
+  --control-border-focus: #0099D8; /* Focus (Primary) */
+  --control-border-error: #D32F2F; /* Error state */
+  --control-border-disabled: #CCD6DA; /* Disabled */
+
+  /* Control text (colores de texto) */
+  --control-text: #031A34; /* Texto principal (Oxford Blue) */
+  --control-text-secondary: #465E6E; /* Texto secundario */
+  --control-text-disabled: #91A9B9; /* Texto deshabilitado */
+  --control-placeholder: #91A9B9; /* Placeholder */
+  --control-icon: #465E6E; /* Iconos */
+  --control-icon-disabled: #91A9B9; /* Iconos deshabilitados */
+
+  /* Control shadows (sombras de inputs) */
+  --control-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --control-shadow-hover: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --control-shadow-focus: 0 0 0 3px rgba(0, 153, 216, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  /* Status colors (colores semánticos) */
+  --color-success: #43A047; /* Verde de éxito */
+  --color-success-bg: rgba(67, 160, 71, 0.1);
+  --color-warning: #EC9005; /* Naranja de advertencia (Carrot Orange) */
+  --color-warning-bg: rgba(236, 144, 5, 0.1);
+  --color-error: #D32F2F; /* Rojo de error */
+  --color-error-bg: rgba(211, 47, 47, 0.1);
+}
+
+.dark {
+  /* Control backgrounds (dark mode) */
+  --control-bg: #041A2C; /* Fondo base oscuro */
+  --control-bg-hover: #062744; /* Hover */
+  --control-bg-focus: #374B60; /* Focus */
+  --control-bg-disabled: #021E2F; /* Disabled */
+
+  /* Control borders (dark mode) */
+  --control-border: #374B60; /* Border base */
+  --control-border-hover: #4A5C6F; /* Hover */
+  --control-border-focus: #FDA042; /* Focus (Sandy Brown en dark) */
+  --control-border-error: #EC9005; /* Error state (naranja en dark) */
+  --control-border-disabled: #374B60; /* Disabled */
+
+  /* Control text (dark mode) */
+  --control-text: #E5EDEF; /* Texto principal (Alice Blue) */
+  --control-text-secondary: #91A9B9; /* Texto secundario */
+  --control-text-disabled: #6B778C; /* Texto deshabilitado */
+  --control-placeholder: #91A9B9; /* Placeholder */
+  --control-icon: #91A9B9; /* Iconos */
+  --control-icon-disabled: #6B778C; /* Iconos deshabilitados */
+
+  /* Control shadows (dark mode) */
+  --control-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --control-shadow-hover: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --control-shadow-focus: 0 0 0 3px rgba(253, 160, 66, 0.12), 0 1px 3px rgba(0, 0, 0, 0.2);
+
+  /* Status colors (dark mode - mantener iguales) */
+  --color-success: #43A047;
+  --color-success-bg: rgba(67, 160, 71, 0.2);
+  --color-warning: #EC9005;
+  --color-warning-bg: rgba(236, 144, 5, 0.2);
+  --color-error: #D32F2F;
+  --color-error-bg: rgba(211, 47, 47, 0.2);
+}

@@ -1,0 +1,401 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "./styles/theme.css";
+
+@custom-variant dark (&:is(.dark *));
+
+body {
+  @apply m-0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-default: var(--default);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 12px;
+
+  --default: oklch(0.96 0.02 256);
+
+  /* FarmaConnect Theme - Light Mode */
+  --background: oklch(0.933 0.012 225); /* #E5EDEF - Alice Blue */
+  --foreground: oklch(0.096 0.042 256); /* #031A34 - Oxford Blue */
+
+  --card: oklch(1 0 0); /* #FFFFFF */
+  --card-foreground: oklch(0.096 0.042 256); /* #031A34 */
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.096 0.042 256);
+
+  --primary: oklch(0.628 0.108 233); /* #0099D8 - Celestial Blue */
+  --primary-foreground: oklch(1 0 0); /* #FFFFFF */
+
+  --secondary: oklch(0.755 0.145 55); /* #FDA042 - Sandy Brown */
+  --secondary-foreground: oklch(0.096 0.042 256); /* #031A34 */
+
+  --muted: oklch(0.922 0.01 225); /* Gris suave */
+  --muted-foreground: oklch(0.45 0.02 240); /* #465E6E aproximado */
+
+  --accent: oklch(0.922 0.01 225);
+  --accent-foreground: oklch(0.096 0.042 256);
+
+  --destructive: oklch(0.547 0.195 25); /* #D32F2F - Error red */
+  --destructive-foreground: oklch(1 0 0);
+
+  --border: oklch(0.82 0.015 225); /* #AFC3CF aproximado */
+  --input: oklch(0.82 0.015 225);
+  --ring: oklch(0.628 0.108 233); /* Same as primary */
+
+  /* Surface tokens - mezclas con primary */
+  --surface-primary-95: oklch(0.98 0.01 233); /* Paper + 5% primary */
+  --surface-primary-90: oklch(0.96 0.02 233); /* Paper + 10% primary */
+  --surface-primary-65: oklch(0.85 0.04 233); /* Paper + 35% primary */
+
+  /* Chart colors */
+  --chart-1: oklch(0.628 0.108 233); /* Primary */
+  --chart-2: oklch(0.755 0.145 55); /* Secondary */
+  --chart-3: oklch(0.611 0.132 143); /* Success */
+  --chart-4: oklch(0.688 0.158 65); /* Warning */
+  --chart-5: oklch(0.547 0.195 25); /* Error */
+
+  /* Sidebar (using background paper colors) */
+  --sidebar: oklch(1 0 0);
+  --sidebar-foreground: oklch(0.096 0.042 256);
+  --sidebar-primary: oklch(0.628 0.108 233);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.922 0.01 225);
+  --sidebar-accent-foreground: oklch(0.096 0.042 256);
+  --sidebar-border: oklch(0.82 0.015 225);
+  --sidebar-ring: oklch(0.628 0.108 233);
+}
+
+.dark {
+  --default: oklch(0.25 0.05 254);
+  /* FarmaConnect Theme - Dark Mode */
+  --background: oklch(0.096 0.042 256); /* #041227 - Oxford Blue */
+  --foreground: oklch(0.933 0.012 225); /* #E5EDEF - Alice Blue */
+
+  --card: oklch(0.18 0.05 257); /* #0f2239 - Slightly lighter than default */
+  --card-foreground: oklch(0.933 0.012 225); /* #E5EDEF */
+
+  --popover: oklch(0.15 0.035 256);
+  --popover-foreground: oklch(0.933 0.012 225);
+
+  /* En dark mode, usamos el secondary (Sandy Brown) como primary visual */
+  --secondary: oklch(0.755 0.145 55); /* #FDA042 - Sandy Brown */
+  --secondary-foreground: oklch(0.096 0.042 256); /* #031A34 */
+
+  --primary: oklch(0.628 0.108 233); /* #0099D8 - Celestial Blue */
+  --primary-foreground: oklch(1 0 0);
+
+  --muted: oklch(0.25 0.03 256); /* Gris oscuro */
+  --muted-foreground: oklch(0.65 0.02 240); /* #91A9B9 aproximado */
+
+  --accent: oklch(0.25 0.03 256);
+  --accent-foreground: oklch(0.933 0.012 225);
+
+  /* Error en dark mode - naranja en lugar de rojo */
+  --destructive: oklch(0.688 0.158 65); /* #EC9005 - Warning naranja */
+  --destructive-foreground: oklch(1 0 0);
+
+  --border: oklch(0.35 0.03 256); /* #374B60 aproximado */
+  --input: oklch(0.35 0.03 256);
+  --ring: oklch(0.755 0.145 55); /* Same as dark primary */
+
+  /* Surface tokens - mezclas con primary (dark) */
+  --surface-primary-95: oklch(0.12 0.04 256); /* Darker base + 5% primary */
+  --surface-primary-90: oklch(0.15 0.05 256); /* Darker base + 10% primary */
+  --surface-primary-65: oklch(0.25 0.07 250); /* Darker base + 35% primary */
+
+  /* Chart colors (dark mode optimized) */
+  --chart-1: oklch(0.755 0.145 55); /* Primary (Sandy Brown) */
+  --chart-2: oklch(0.628 0.108 233); /* Secondary (Celestial Blue) */
+  --chart-3: oklch(0.611 0.132 143); /* Success */
+  --chart-4: oklch(0.688 0.158 65); /* Warning */
+  --chart-5: oklch(0.547 0.195 25); /* Error */
+
+  /* Sidebar (dark) */
+  --sidebar: oklch(0.15 0.035 256);
+  --sidebar-foreground: oklch(0.933 0.012 225);
+  --sidebar-primary: oklch(0.755 0.145 55);
+  --sidebar-primary-foreground: oklch(0.096 0.042 256);
+  --sidebar-accent: oklch(0.25 0.03 256);
+  --sidebar-accent-foreground: oklch(0.933 0.012 225);
+  --sidebar-border: oklch(0.35 0.03 256);
+  --sidebar-ring: oklch(0.755 0.145 55);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-default text-foreground;
+  }
+}
+
+/* =========================
+   ESTILOS GLOBALES ADICIONALES
+   ========================= */
+
+/* Fuente Lato (FarmaConnect) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  min-height: 4rem;
+  background-color: hsl(var(--primary) / 0.2);
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--primary) / 0.2);
+  border-radius: 20px;
+  border: 1px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(var(--primary));
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* Ocultar scrollbar en móvil */
+@media screen and (max-width: 900px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Autofill styling (inputs) */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: var(--control-text);
+}
+
+/* Ocultar spinner de números */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+/* =========================
+   ANIMACIONES PERSONALIZADAS
+   ========================= */
+
+@property --border-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: '<angle>';
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(30deg);
+  }
+  75% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes border {
+  to {
+    --border-angle: 360deg;
+  }
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes sidebar-preview-fade {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(var(--color-primary) / 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(var(--color-primary) / 0.6);
+  }
+}
+
+@keyframes trigger-bounce {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.1) rotate(5deg);
+  }
+  75% {
+    transform: scale(1.1) rotate(-5deg);
+  }
+}
+
+/* Clases de animación */
+.animate-wiggle {
+  animation: wiggle 0.6s ease-in-out;
+}
+
+.animate-border {
+  animation: border 4s linear infinite;
+}
+
+.animate-accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+
+.animate-accordion-up {
+  animation: accordion-up 0.2s ease-out;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s ease-in;
+}
+
+.animate-sidebar-preview {
+  animation: sidebar-preview-fade 0.3s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-trigger-bounce {
+  animation: trigger-bounce 0.4s ease-in-out;
+}
+
+/* =========================
+   UTILIDADES
+   ========================= */
+
+/* Números tabulares (para tablas) */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

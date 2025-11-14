@@ -1,0 +1,63 @@
+{
+  "common": {
+    "welcome": "Benvingut",
+    "loading": "Carregant",
+    "error": "Error",
+    "save": "Desar",
+    "cancel": "Cancel·lar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "search": "Cercar",
+    "logout": "Tancar sessió"
+  },
+  "theme": {
+    "light": "Mode clar",
+    "dark": "Mode fosc",
+    "switchToLight": "Canviar a mode clar",
+    "switchToDark": "Canviar a mode fosc"
+  },
+  "language": {
+    "select": "Seleccionar idioma",
+    "en": "Anglès",
+    "es": "Espanyol",
+    "ca": "Català",
+    "fr": "Francès",
+    "it": "Italià",
+    "de": "Alemany",
+    "zh": "Xinès",
+    "tw": "Taiwanès"
+  },
+  "navigation": {
+    "dashboard": "Tauler de control",
+    "home": "Inici",
+    "admin": "Administració",
+    "productManagement": "Gestió de productes",
+    "articles": "Articles",
+    "promotions": "Promocions",
+    "list": "Llistes",
+    "tags": "Etiquetes",
+    "listManagement": "Gestió de llistes",
+    "catalog": "Catàleg",
+    "playlists": "Llistes de reproducció",
+    "deviceManagement": "Gestió de dispositius",
+    "touch": "Pantalles tàctils",
+    "sensors": "Sensors",
+    "rails": "Pantalles publicitàries",
+    "companies": "Empreses",
+    "locals": "Locals",
+    "users": "Usuaris",
+    "management": "Gestió",
+    "logs": "Registres",
+    "antenna-logs": "Registres d'antena",
+    "versions": "Versions",
+    "media": "Multimèdia",
+    "multimedia": "Multimèdia"
+  },
+  "user": {
+    "account": "Compte",
+    "billing": "Facturació",
+    "notifications": "Notificacions",
+    "upgradeToPro": "Actualitzar a Pro",
+    "addTeam": "Afegir equip"
+  }
+}

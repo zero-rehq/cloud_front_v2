@@ -1,0 +1,63 @@
+{
+  "common": {
+    "welcome": "欢迎",
+    "loading": "加载中",
+    "error": "错误",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "search": "搜索",
+    "logout": "登出"
+  },
+  "theme": {
+    "light": "浅色模式",
+    "dark": "深色模式",
+    "switchToLight": "切换到浅色模式",
+    "switchToDark": "切换到深色模式"
+  },
+  "language": {
+    "select": "选择语言",
+    "en": "英语",
+    "es": "西班牙语",
+    "ca": "加泰罗尼亚语",
+    "fr": "法语",
+    "it": "意大利语",
+    "de": "德语",
+    "zh": "中文",
+    "tw": "台湾语"
+  },
+  "navigation": {
+    "dashboard": "仪表板",
+    "home": "首页",
+    "admin": "管理",
+    "productManagement": "产品管理",
+    "articles": "文章",
+    "promotions": "促销",
+    "list": "列表",
+    "tags": "标签",
+    "listManagement": "列表管理",
+    "catalog": "目录",
+    "playlists": "播放列表",
+    "deviceManagement": "设备管理",
+    "touch": "触摸屏",
+    "sensors": "传感器",
+    "rails": "广告屏",
+    "companies": "公司",
+    "locals": "商店",
+    "users": "用户",
+    "management": "管理",
+    "logs": "日志",
+    "antenna-logs": "天线日志",
+    "versions": "版本",
+    "media": "媒体",
+    "multimedia": "多媒体"
+  },
+  "user": {
+    "account": "账户",
+    "billing": "账单",
+    "notifications": "通知",
+    "upgradeToPro": "升级到专业版",
+    "addTeam": "添加团队"
+  }
+}

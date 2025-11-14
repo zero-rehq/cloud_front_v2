@@ -1,0 +1,63 @@
+{
+  "common": {
+    "welcome": "Willkommen",
+    "loading": "Laden",
+    "error": "Fehler",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "search": "Suchen",
+    "logout": "Abmelden"
+  },
+  "theme": {
+    "light": "Heller Modus",
+    "dark": "Dunkler Modus",
+    "switchToLight": "Zu hellem Modus wechseln",
+    "switchToDark": "Zu dunklem Modus wechseln"
+  },
+  "language": {
+    "select": "Sprache auswählen",
+    "en": "Englisch",
+    "es": "Spanisch",
+    "ca": "Katalanisch",
+    "fr": "Französisch",
+    "it": "Italienisch",
+    "de": "Deutsch",
+    "zh": "Chinesisch",
+    "tw": "Taiwanesisch"
+  },
+  "navigation": {
+    "dashboard": "Armaturenbrett",
+    "home": "Startseite",
+    "admin": "Verwaltung",
+    "productManagement": "Produktverwaltung",
+    "articles": "Artikel",
+    "promotions": "Promotionen",
+    "list": "Listen",
+    "tags": "Schlagwörter",
+    "listManagement": "Listenverwaltung",
+    "catalog": "Katalog",
+    "playlists": "Wiedergabelisten",
+    "deviceManagement": "Geräteverwaltung",
+    "touch": "Touchscreens",
+    "sensors": "Sensoren",
+    "rails": "Werbebildschirme",
+    "companies": "Unternehmen",
+    "locals": "Geschäfte",
+    "users": "Benutzer",
+    "management": "Verwaltung",
+    "logs": "Protokolle",
+    "antenna-logs": "Antennenprotokolle",
+    "versions": "Versionen",
+    "media": "Medien",
+    "multimedia": "Multimedia"
+  },
+  "user": {
+    "account": "Konto",
+    "billing": "Abrechnung",
+    "notifications": "Benachrichtigungen",
+    "upgradeToPro": "Auf Pro upgraden",
+    "addTeam": "Team hinzufügen"
+  }
+}

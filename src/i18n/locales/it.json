@@ -1,0 +1,63 @@
+{
+  "common": {
+    "welcome": "Benvenuto",
+    "loading": "Caricamento",
+    "error": "Errore",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "search": "Cerca",
+    "logout": "Disconnetti"
+  },
+  "theme": {
+    "light": "Modalità chiara",
+    "dark": "Modalità scura",
+    "switchToLight": "Passa alla modalità chiara",
+    "switchToDark": "Passa alla modalità scura"
+  },
+  "language": {
+    "select": "Seleziona lingua",
+    "en": "Inglese",
+    "es": "Spagnolo",
+    "ca": "Catalano",
+    "fr": "Francese",
+    "it": "Italiano",
+    "de": "Tedesco",
+    "zh": "Cinese",
+    "tw": "Taiwanese"
+  },
+  "navigation": {
+    "dashboard": "Pannello di controllo",
+    "home": "Home",
+    "admin": "Amministrazione",
+    "productManagement": "Gestione prodotti",
+    "articles": "Articoli",
+    "promotions": "Promozioni",
+    "list": "Liste",
+    "tags": "Etichette",
+    "listManagement": "Gestione liste",
+    "catalog": "Catalogo",
+    "playlists": "Playlist",
+    "deviceManagement": "Gestione dispositivi",
+    "touch": "Schermi touch",
+    "sensors": "Sensori",
+    "rails": "Schermi pubblicitari",
+    "companies": "Aziende",
+    "locals": "Negozi",
+    "users": "Utenti",
+    "management": "Gestione",
+    "logs": "Registri",
+    "antenna-logs": "Registri antenna",
+    "versions": "Versioni",
+    "media": "Media",
+    "multimedia": "Multimedia"
+  },
+  "user": {
+    "account": "Account",
+    "billing": "Fatturazione",
+    "notifications": "Notifiche",
+    "upgradeToPro": "Passa a Pro",
+    "addTeam": "Aggiungi team"
+  }
+}

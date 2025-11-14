@@ -1,0 +1,63 @@
+{
+  "common": {
+    "welcome": "歡迎",
+    "loading": "載入中",
+    "error": "錯誤",
+    "save": "儲存",
+    "cancel": "取消",
+    "delete": "刪除",
+    "edit": "編輯",
+    "search": "搜尋",
+    "logout": "登出"
+  },
+  "theme": {
+    "light": "淺色模式",
+    "dark": "深色模式",
+    "switchToLight": "切換到淺色模式",
+    "switchToDark": "切換到深色模式"
+  },
+  "language": {
+    "select": "選擇語言",
+    "en": "英語",
+    "es": "西班牙語",
+    "ca": "加泰隆尼亞語",
+    "fr": "法語",
+    "it": "義大利語",
+    "de": "德語",
+    "zh": "中文",
+    "tw": "台灣語"
+  },
+  "navigation": {
+    "dashboard": "儀表板",
+    "home": "首頁",
+    "admin": "管理",
+    "productManagement": "產品管理",
+    "articles": "文章",
+    "promotions": "促銷",
+    "list": "清單",
+    "tags": "標籤",
+    "listManagement": "清單管理",
+    "catalog": "目錄",
+    "playlists": "播放清單",
+    "deviceManagement": "設備管理",
+    "touch": "觸控螢幕",
+    "sensors": "感應器",
+    "rails": "廣告螢幕",
+    "companies": "公司",
+    "locals": "商店",
+    "users": "使用者",
+    "management": "管理",
+    "logs": "日誌",
+    "antenna-logs": "天線日誌",
+    "versions": "版本",
+    "media": "媒體",
+    "multimedia": "多媒體"
+  },
+  "user": {
+    "account": "帳戶",
+    "billing": "帳單",
+    "notifications": "通知",
+    "upgradeToPro": "升級到專業版",
+    "addTeam": "新增團隊"
+  }
+}

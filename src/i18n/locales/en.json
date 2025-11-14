@@ -1,0 +1,63 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "loading": "Loading",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "logout": "Log out"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "language": {
+    "select": "Select language",
+    "en": "English",
+    "es": "Spanish",
+    "ca": "Catalan",
+    "fr": "French",
+    "it": "Italian",
+    "de": "German",
+    "zh": "Chinese",
+    "tw": "Taiwanese"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "admin": "Administration",
+    "productManagement": "Product Management",
+    "articles": "Articles",
+    "promotions": "Promotions",
+    "list": "Lists",
+    "tags": "Tags",
+    "listManagement": "List Management",
+    "catalog": "Catalog",
+    "playlists": "Playlists",
+    "deviceManagement": "Device Management",
+    "touch": "Touchscreens",
+    "sensors": "Sensors",
+    "rails": "Digital Signage Rails",
+    "companies": "Companies",
+    "locals": "Stores",
+    "users": "Users",
+    "management": "Management",
+    "logs": "Logs",
+    "antenna-logs": "Antenna Logs",
+    "versions": "Versions",
+    "media": "Media",
+    "multimedia": "Multimedia"
+  },
+  "user": {
+    "account": "Account",
+    "billing": "Billing",
+    "notifications": "Notifications",
+    "upgradeToPro": "Upgrade to Pro",
+    "addTeam": "Add team"
+  }
+}

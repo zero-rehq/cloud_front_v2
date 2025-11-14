@@ -1,0 +1,63 @@
+{
+  "common": {
+    "welcome": "Bienvenue",
+    "loading": "Chargement",
+    "error": "Erreur",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "search": "Rechercher",
+    "logout": "Se déconnecter"
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre",
+    "switchToLight": "Passer en mode clair",
+    "switchToDark": "Passer en mode sombre"
+  },
+  "language": {
+    "select": "Sélectionner la langue",
+    "en": "Anglais",
+    "es": "Espagnol",
+    "ca": "Catalan",
+    "fr": "Français",
+    "it": "Italien",
+    "de": "Allemand",
+    "zh": "Chinois",
+    "tw": "Taïwanais"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "home": "Accueil",
+    "admin": "Administration",
+    "productManagement": "Gestion des produits",
+    "articles": "Articles",
+    "promotions": "Promotions",
+    "list": "Listes",
+    "tags": "Étiquettes",
+    "listManagement": "Gestion des listes",
+    "catalog": "Catalogue",
+    "playlists": "Listes de lecture",
+    "deviceManagement": "Gestion des appareils",
+    "touch": "Écrans tactiles",
+    "sensors": "Capteurs",
+    "rails": "Écrans publicitaires",
+    "companies": "Entreprises",
+    "locals": "Magasins",
+    "users": "Utilisateurs",
+    "management": "Gestion",
+    "logs": "Journaux",
+    "antenna-logs": "Journaux d'antenne",
+    "versions": "Versions",
+    "media": "Médias",
+    "multimedia": "Multimédia"
+  },
+  "user": {
+    "account": "Compte",
+    "billing": "Facturation",
+    "notifications": "Notifications",
+    "upgradeToPro": "Passer à Pro",
+    "addTeam": "Ajouter une équipe"
+  }
+}

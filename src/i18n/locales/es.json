@@ -1,0 +1,63 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "loading": "Cargando",
+    "error": "Error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "search": "Buscar",
+    "logout": "Cerrar sesión"
+  },
+  "theme": {
+    "light": "Modo claro",
+    "dark": "Modo oscuro",
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
+  },
+  "language": {
+    "select": "Seleccionar idioma",
+    "en": "Inglés",
+    "es": "Español",
+    "ca": "Catalán",
+    "fr": "Francés",
+    "it": "Italiano",
+    "de": "Alemán",
+    "zh": "Chino",
+    "tw": "Taiwanés"
+  },
+  "navigation": {
+    "dashboard": "Panel de control",
+    "home": "Inicio",
+    "admin": "Administración",
+    "productManagement": "Gestión de productos",
+    "articles": "Artículos",
+    "promotions": "Promociones",
+    "list": "Listas",
+    "tags": "Etiquetas",
+    "listManagement": "Gestión de listas",
+    "catalog": "Catálogo",
+    "playlists": "Listas de reproducción",
+    "deviceManagement": "Gestión de dispositivos",
+    "touch": "Pantallas táctiles",
+    "sensors": "Sensores",
+    "rails": "Pantallas publicitarias",
+    "companies": "Empresas",
+    "locals": "Locales",
+    "users": "Usuarios",
+    "management": "Gestión",
+    "logs": "Registros",
+    "antenna-logs": "Registros de antena",
+    "versions": "Versiones",
+    "media": "Multimedia",
+    "multimedia": "Multimedia"
+  },
+  "user": {
+    "account": "Cuenta",
+    "billing": "Facturación",
+    "notifications": "Notificaciones",
+    "upgradeToPro": "Actualizar a Pro",
+    "addTeam": "Añadir equipo"
+  }
+}
