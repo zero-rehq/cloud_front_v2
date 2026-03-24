@@ -1,1 +1,4 @@
-/home/zero-rehq/.local/bin/engram-pre-push-hook.sh
+#!/bin/bash
+HOOK="$HOME/.local/bin/engram-pre-push-hook.sh"
+[ -x "$HOOK" ] && exec "$HOOK" "$@"
+exit 0
